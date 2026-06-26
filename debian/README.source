@@ -19,9 +19,9 @@ Guide To The X Strike Force Packages
 ------------------------------------
 
 The X Strike Force team maintains X packages in git repositories on
-git.debian.org in the pkg-xorg subdirectory. Most upstream packages
+salsa.debian.org in the xorg-team subdirectory. Most upstream packages
 are actually maintained in git repositories as well, so they often
-just need to be pulled into git.debian.org in a "upstream-*" branch.
+just need to be pulled into salsa.debian.org in a "upstream-*" branch.
 Otherwise, the upstream sources are manually installed in the Debian
 git repository.
 

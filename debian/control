@@ -3,11 +3,12 @@ Section: x11
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Build-Depends:
- debhelper-compat (= 12),
+ debhelper-compat (= 13),
  libx11-dev (>= 1:0.99.2),
  libsm-dev (>= 1:0.99.1),
  libice-dev (>= 1:0.99.0),
  pkg-config,
+ x11proto-dev,
  xutils-dev (>= 1:7.6+3),
  quilt,
 # for unit tests
@@ -15,7 +16,7 @@ Build-Depends:
 # specs
  xmlto (>= 0.0.20),
  xorg-sgml-doctools (>= 1:1.10),
-Standards-Version: 4.5.0
+Standards-Version: 4.6.0
 Vcs-Git: https://salsa.debian.org/xorg-team/lib/libxt.git
 Vcs-Browser: https://salsa.debian.org/xorg-team/lib/libxt
 
@@ -47,7 +48,7 @@ Depends:
  ${misc:Depends},
  libxt6 (= ${binary:Version}),
  libx11-dev,
- x11proto-core-dev,
+ x11proto-dev,
  libsm-dev,
 Suggests:
  libxt-doc,

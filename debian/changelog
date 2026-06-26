@@ -1,8 +1,21 @@
-libxt (1:1.2.0-1deepin1) unstable; urgency=medium
+libxt (1:1.2.1-1.1) unstable; urgency=medium
 
-  * feat: add sw64 support.
+  * Non-maintainer upload.
 
- -- hudeng <hudeng@deepin.org>  Fri, 30 May 2025 09:24:38 +0800
+  [ Timo Aaltonen ]
+  * copyright: Synced with upstream. (Closes: #1005272)
+
+ -- Bastian Germann <bage@debian.org>  Mon, 03 Apr 2023 15:51:04 +0200
+
+libxt (1:1.2.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Migrate to x11proto-dev.
+  * Update README.source for salsa.
+  * control: Bump debhelper-compat to 13, policy to 4.6.0.
+  * Update signing-key.asc.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 09 Feb 2022 17:28:15 +0200
 
 libxt (1:1.2.0-1) unstable; urgency=medium
 
