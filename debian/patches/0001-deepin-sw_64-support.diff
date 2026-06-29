@@ -1,0 +1,21 @@
+From: hudeng <hudeng@deepin.org>
+Date: Mon, 29 Jun 2026 16:32:21 +0800
+Subject: deepin-sw_64-support
+
+---
+ include/X11/Xtos.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/include/X11/Xtos.h b/include/X11/Xtos.h
+index 64b2da8..f221242 100644
+--- a/include/X11/Xtos.h
++++ b/include/X11/Xtos.h
+@@ -54,7 +54,7 @@ SOFTWARE.
+ 
+ 
+ #if defined (_LP64) || \
+-    defined(__alpha) || defined(__alpha__) || \
++    defined(__alpha) || defined(__alpha__) || defined(__sw_64__) || \
+     defined(__ia64__) || defined(ia64) || \
+     defined(__sparc64__) || \
+     defined(__s390x__) || \

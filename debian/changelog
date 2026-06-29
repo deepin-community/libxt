@@ -1,3 +1,9 @@
+libxt (1:1.2.1-1.1deepin1) unstable; urgency=medium
+
+  * feat: add sw64 support
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Mon, 29 Jun 2026 16:34:20 +0800
+
 libxt (1:1.2.1-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
