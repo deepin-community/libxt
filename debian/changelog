@@ -1,3 +1,9 @@
+libxt (1:1.2.1-1.1deepin2) unstable; urgency=medium
+
+  * Rebuild with LTO enabled (dpkg vendor feature optimize/lto).
+
+ -- tunaichao <tunaichao@uniontech.com>  Fri, 11 Sep 2026 16:59:21 +0800
+
 libxt (1:1.2.1-1.1deepin1) unstable; urgency=medium
 
   * feat: add sw64 support
